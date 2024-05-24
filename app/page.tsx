@@ -11,7 +11,7 @@ export default function Home() {
   const content = linkData
 
   return (
-    <main className="flex flex-col gap-5 p-10 min-h-screen items-center justify-start">
+    <main className="flex flex-col gap-5 sm:px-10 px-3 py-10 min-h-screen items-center justify-start">
       <div className="relative rounded-full overflow-clip h-[100px] aspect-square shadow-lg outline">
         <Image src="/pfp.png" alt="Gionidude profile image" fill />
       </div>
