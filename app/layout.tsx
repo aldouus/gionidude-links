@@ -1,15 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Head from "next/head";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Gionidude's Links",
   description: "Social Links for Gionidude's channels",
   icons: "/favicon.ico",
-  openGraph:
-    <meta property="og:image" content="/pfp.png" />,
 };
 
 export default function RootLayout({
@@ -19,6 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <meta property="og:image" content="/pfp.png" />
+      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );
