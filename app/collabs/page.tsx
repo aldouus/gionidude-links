@@ -33,7 +33,7 @@ export default function Home() {
           <div className="w-full h-[1px] bg-zinc-400"></div>
         </div>
       </div>
-      <div className={`grid grid-cols-1 place-items-center gap-5 max-w-[1320px] w-full ${twoCols} ${threeCols}`}>
+      <div className={`grid grid-cols-1 place-items-center gap-5 max-w-[1320px] w-full ${twoCols} ${threeCols} p-6`}>
         {content.map((item, index) => (
           <motion.div
             ref={ref}
