@@ -7,7 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Gionidude's Links",
   description: "Social Links for Gionidude's channels",
-  icons: "/favicon.ico"
+  icons: "/favicon.ico",
+  openGraph:
+    <meta property="og:image" content="/pfp.png" />,
 };
 
 export default function RootLayout({
