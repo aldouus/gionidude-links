@@ -5,12 +5,6 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const metadata: Metadata = {
-  title: "Gionidude's Links",
-  description: "Social Links for Gionidude's channels",
-  icons: "/favicon.ico",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -19,7 +13,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <meta property="og:image" content="/pfp.png" />
+        <title>Gionidude &apos; s Links</title>
+        <meta name="description" content="Gionidude's social links and collabs" />
+        <meta property="og:image" content="/public/pfp.png" />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
