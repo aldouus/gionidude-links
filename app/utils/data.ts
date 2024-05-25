@@ -36,3 +36,17 @@ export const linkData = [
     text: 'Kick',
   },
 ];
+
+export const collabData = [
+  {
+    href: 'https://www.etsy.com/shop/SazuraCraftUS',
+    bannerImage: '/sazura_banner.png',
+    bannerImageAlt: 'Sazura-Craft US Banner Image',
+    image: '/sazura.png',
+    imageAlt: 'Sazura-Craft US Profile Image',
+    title: 'Sazura-Craft US',
+    description:
+      'Master with experience. Works of any complexity (craft, props, design, plastic makeup, special effects, FX).',
+    url: 'etsy.com/shop/SazuraCraftUS',
+  },
+];

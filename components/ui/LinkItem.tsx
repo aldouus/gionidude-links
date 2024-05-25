@@ -18,12 +18,9 @@ type LinkTextProps = {
 };
 
 const LinkContainer = ({ children, href }: LinkContainerProps) => {
-  const [isHovered, setIsHovered] = useState(false);
-  const handleMouseEnter = () => setIsHovered(true);
-  const handleMouseLeave = () => setIsHovered(false);
 
   return (
-    <Link href={href} target="_blank" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="flex relative items-center overflow-clip p-3 gap-3 h-[75px] w-full rounded-3xl bg-white shadow-lg outline outline-1 outline-zinc-300 focus-visible:outline-offset-4 focus-visible:outline-zinc-900 focus-visible:outline-2 hover:shadow-inner hover:scale-[0.99] transition-all duration-250">{children}</Link>
+    <Link href={href} target="_blank" className="flex relative items-center overflow-clip p-3 gap-3 h-[75px] w-full rounded-3xl bg-white shadow-lg outline outline-1 outline-zinc-300 focus-visible:outline-offset-4 focus-visible:outline-zinc-900 focus-visible:outline-2 hover:shadow-inner hover:scale-[0.99] transition-transform duration-250">{children}</Link>
   )
 };
 

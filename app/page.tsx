@@ -19,8 +19,8 @@ export default function Home() {
         <h1 className="text-zinc-900 text-3xl font-bold">Gionidude</h1>
         <div>
           <div className="flex gap-5">
-            <Link href="/" className="text-zinc-900 text-xl">Links</Link>
-            <Link href="/collabs" className="text-zinc-400 text-xl">Collabs</Link>
+            <Link href="/" className="text-zinc-900 text-xl focus-visible:outline-black">Links</Link>
+            <Link href="/collabs" className="text-zinc-400 text-xl focus-visible:outline-black">Collabs</Link>
           </div>
           <div className="w-full h-[1px] bg-zinc-400"></div>
         </div>
