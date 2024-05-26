@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <main className="flex flex-col gap-3 items-center justify-start min-h-screen p-8">
+    <main className="flex flex-col gap-3 items-center justify-start min-h-screen pt-12 p-8">
       <Link href="/" className="absolute top-0 left-0 p-7 underline">Back</Link>
       <div className="flex flex-col gap-3 max-w-[700px] text-zinc-900 font-mono">
         <h1 className="text-6xl font-bold pt-5">Privacy Policy</h1>
-        <p className="text-zinc-500">25. May 2024</p>
+        <p className="text-zinc-500">May 2024</p>
 
         <h2 className="text-xl pt-3 font-bold underline">Introduction</h2>
         <p className="text-sm">Welcome to Gionidude&apos;s Links (the &quot;Website&quot;). Your privacy is important to us. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your data.</p>
