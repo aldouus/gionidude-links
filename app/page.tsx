@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
 import { linkData } from "./utils/data";
+import Footer from "@/components/ui/Footer";
+import CookieConsent from "@/components/ui/CookieConsent";
 
 export default function Home() {
   const ref = useRef(null);
@@ -42,6 +44,8 @@ export default function Home() {
           </motion.div>
         ))}
       </div>
+      <Footer />
+      <CookieConsent />
     </main>
   );
 }

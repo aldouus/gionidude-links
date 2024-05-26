@@ -4,7 +4,8 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { collabData } from "../utils/data";
-import { CardContainer, CardBanner, CardImage, CardTitle, CardDescription, CardLink, CardIcon } from "@/components/ui/Card";
+import { CardContainer, CardBanner, CardImage, CardTitle, CardDescription, CardLink } from "@/components/ui/Card";
+import Footer from "@/components/ui/Footer";
 
 export default function Home() {
   const ref = useRef(null);
@@ -52,6 +53,7 @@ export default function Home() {
           </motion.div>
         ))}
       </div>
+      <Footer />
     </main>
   );
 };
