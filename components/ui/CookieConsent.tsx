@@ -27,7 +27,7 @@ export default function CookieConsent() {
       {!showConsent ?
         <motion.div initial={{ y: 100 }} animate={{ y: 0 }} exit={{ y: 100 }} transition={{ duration: 0.25, type: 'spring' }} className="fixed bottom-5 flex items-center gap-3 justify-between p-3 pl-8 sm:pl-5 bg-white outline outline-1 outline-zinc-400 shadow-md rounded-3xl sm:rounded-full overflow-clip mx-5 w-[90%] sm:w-auto">
           <div className="flex flex-col sm:flex-row gap-3">
-            <span className="text-sm text-zinc-900">We use cookies to enhance your experience. By using our site, you agree to our <Link href="/privacy-policy" className="underline text-blue-400">Privacy Policy</Link></span>
+            <span className="text-sm text-zinc-900">We use cookies to enhance your experience. By using our site, you agree to our <Link href="/privacy-policy" className="underline text-blue-500">Privacy Policy</Link></span>
           </div>
           <div className="flex flex-col sm:flex-row gap-3">
             <button className="bg-zinc-100 text-zinc-900 outline outline-1 outline-zinc-400 rounded-full p-3" onMouseDown={() => declineCookie()}>Decline</button>
