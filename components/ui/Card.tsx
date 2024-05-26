@@ -64,7 +64,7 @@ const CardDescription = (props: CardDescriptionProps) => {
 
 const CardLink = (props: CardLinkProps) => {
   return (
-    <p className="text-zinc-400">{props.url}</p>
+    <p className="text-zinc-500">{props.url}</p>
   )
 }
 
