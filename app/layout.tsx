@@ -20,7 +20,17 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <Analytics />
+        <Analytics 
+          beforeSend={(event) => {
+            if (event.url.includes('/collabs')) {
+              return null;
+            }
+            if (event.url.includes('/privacy-policy')) {
+              return null;
+            }
+            return event;
+          }}
+        />
       </body>
     </html>
   );
