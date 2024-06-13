@@ -15,7 +15,13 @@ export const linkData = [
     href: 'https://www.instagram.com/gionidude',
     image: '/insta.png',
     imageAlt: 'Instagram Logo',
-    text: 'Instagram',
+    text: 'Main Instagram',
+  },
+  {
+    href: 'https://www.instagram.com/operator_dudes',
+    image: '/insta.png',
+    imageAlt: 'Instagram Logo',
+    text: 'Operator Dudes Instagram',
   },
   {
     href: 'https://youtube.com/@gionidude',
