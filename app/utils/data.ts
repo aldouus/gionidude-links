@@ -41,6 +41,12 @@ export const linkData = [
     imageAlt: 'Kick Logo',
     text: 'Kick',
   },
+  {
+    href: 'https://ko-fi.com/gionidude',
+    image: '/kofi.png',
+    imageAlt: 'Ko-fi Logo',
+    text: 'Cosplay Donation',
+  },
 ];
 
 export const collabData = [

@@ -27,7 +27,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/page.jsx",
-    "components/LinkPreview.jsx"
+    "components/LinkPreview.jsx",
+    "app/privacy-policy/page.tsx"
   ],
   "exclude": ["node_modules"]
 }
