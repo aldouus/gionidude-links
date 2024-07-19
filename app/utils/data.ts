@@ -30,6 +30,12 @@ export const linkData = [
     text: 'YouTube Channel',
   },
   {
+    href: 'https://x.com/gionidud',
+    image: '/twitter.png',
+    imageAlt: 'Twitter Logo',
+    text: 'Twitter',
+  },
+  {
     href: 'https://www.twitch.tv/gionidude',
     image: '/twitch.png',
     imageAlt: 'Twitch Logo',
