@@ -79,7 +79,7 @@ const CardBanner = (props: CardBannerProps) => {
 const CardImage = (props: CardImageProps) => {
   return (
     <div className="relative h-[100px] aspect-square bg-white rounded-2xl overflow-clip outline outline-1 outline-zinc-300 shadow-md">
-      <Image src={props.src} alt={props.alt} sizes="max-width: 128px" fill={true} className="object-contain max-w-full p-2" />
+      <Image src={props.src} alt={props.alt} sizes="max-width: 128px" fill={true} className="object-contain max-w-full" />
     </div>
   )
 }
@@ -104,7 +104,7 @@ const CardLink = (props: CardLinkProps) => {
 
 const CardIcon = () => {
   return (
-    <div className="flex items-center p-[1.8rem] aspect-square absolute bottom-0 right-0">
+    <div className="items-center p-[1.8rem] aspect-square absolute bottom-0 right-0 hidden md:flex">
       <svg className="fill-zinc-400" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 20 20" width="20">
         <g>
           <rect fill="none" height="20" width="20" /></g>

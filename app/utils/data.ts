@@ -67,4 +67,14 @@ export const collabData = [
       'Master with experience. Works of any complexity (craft, props, design, plastic makeup, special effects, FX).',
     url: 'etsy.com/shop/SazuraCraftUS',
   },
+  {
+    href: 'https://lapa-gear.com.ua/',
+    bannerImage: '/lapa_banner.png',
+    bannerImageAlt: 'Lapa Gear Banner Image',
+    image: '/lapa.png',
+    imageAlt: 'Lapa Gear Profile Image',
+    title: 'Lapa Gear',
+    description: 'Professional camouflage capes Viper Hood / Ghillie',
+    url: 'lapa-gear.com.ua',
+  },
 ];
