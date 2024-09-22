@@ -1,17 +1,5 @@
 export const linkData = [
   {
-    href: 'https://www.tiktok.com/@gionidude',
-    image: '/tiktok.png',
-    imageAlt: 'Tiktok Logo',
-    text: 'Main Tiktok',
-  },
-  {
-    href: 'https://www.tiktok.com/@gioni_airsoft',
-    image: '/tiktok.png',
-    imageAlt: 'Tiktok Logo',
-    text: 'Airsoft Tiktok',
-  },
-  {
     href: 'https://www.instagram.com/gionidude',
     image: '/insta.png',
     imageAlt: 'Instagram Logo',
