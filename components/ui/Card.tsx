@@ -64,7 +64,7 @@ const Cards = ({ collabData }: CardsProps) => {
 
 const CardContainer = (props: CardContainerProps) => {
   return (
-    <Link href={props.href} target="_blank" className="flex flex-col gap-3 pt-[4rem] items-start justify-start relative h-[350px] max-w-[400px] w-full outline outline-1 outline-zinc-400 rounded-3xl overflow-clip p-5 bg-white isolate focus-visible:outline-2 focus-visible:outline-black shadow-md hover:shadow-inner hover:shadow-zinc-300 hover:scale-[0.99] transition-transform duration-250">{props.children}</Link>
+    <Link href={props.href} target="_blank" className="flex flex-col gap-3 pt-[4rem] items-start justify-start relative h-[350px] max-w-[400px] w-full outline outline-1 outline-zinc-400 rounded-3xl overflow-clip p-5 bg-black isolate focus-visible:outline-2 focus-visible:outline-black shadow-md hover:shadow-inner hover:shadow-zinc-300 hover:scale-[0.99] transition-transform duration-250">{props.children}</Link>
   )
 }
 
